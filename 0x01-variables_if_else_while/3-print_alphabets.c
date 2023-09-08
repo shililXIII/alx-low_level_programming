@@ -10,7 +10,7 @@ int i;
 
 for (i = 0; i < 52; i++)
 {
-putchar(alph[52])
+putchar(alph[52]);
 }
 putchar('\n');
 return (0);
