@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - alphabet again 
+ * main - alphabet again
  * Return: always 0 (success)
 */
 int main(void)
