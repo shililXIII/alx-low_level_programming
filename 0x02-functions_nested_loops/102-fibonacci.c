@@ -12,10 +12,10 @@ int main(void)
 	{
 		k += j;
 		if (k % 2 == 0)
-			sum += k;
+		sum += k;
 		j = k - j;
 		i++;
 	}
-	printf("%ld, \n", sum);
+	printf("%ld\n, ", sum);
 	return (0);
 }
