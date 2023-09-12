@@ -10,18 +10,18 @@ if (n >= 0 && n <= 15)
 	{
 	for (num = 0; num <= n; num++)
 		{
-		putchar(0);
+		_putchar(0);
 		for (mult = 1; mult <= n; mult++)
 		{
 		putchar(',');
 		putchar(' ');
 		prod = num * mult;
 		if (prod <= 99)
-		putchar(' ');
+		_putchar(' ');
 		if (prod <= 9)
-		putchar(' ');
+		_putchar(' ');
 		if (prod >= 100)
-		putchar(' ');
+		_putchar(' ');
 		{
 			putchar((prod / 100) + '0');
 			putchar(((prod / 10)) % 10 + '0');
