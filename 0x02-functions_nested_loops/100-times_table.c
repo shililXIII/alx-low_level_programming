@@ -1,14 +1,14 @@
 #include "stdio.h"
-/*
- * print_tis_table
+/**
+ * print_times_table - print times tables
  * @n: intger * Return: empty result
 */
 void print_times_table(int n)
 {
-	int num, mult, prod;
-	if (n >= 0 && n <= 15)
+int num, mult, prod;
+if (n >= 0 && n <= 15)
 	{
-		for (num =0; num <= n; num++)
+	for (num = 0; num <= n; num++)
 		{
 		putchar(0);
 		for (mult = 1; mult <= n; mult++)
@@ -29,8 +29,8 @@ void print_times_table(int n)
 			if (prod <= 99 && prod >= 10)
 			{
 			putchar((prod / 10) + '0');
-			}
-		        putchar((prod % 10) + '0');
+}}
+putchar((prod % 10) + '0');
 			}
 		putchar('\n');
 		}
