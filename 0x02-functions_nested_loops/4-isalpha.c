@@ -1,6 +1,7 @@
 #include "main.h"
-/*
+/**
  * _isalpha - check for alpha char
+ * @c: int alpha
  * Return: 1 for alpha 0 for otherwish.
 */
 int _isalpha(int c)

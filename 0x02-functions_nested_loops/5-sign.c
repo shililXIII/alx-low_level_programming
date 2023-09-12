@@ -1,6 +1,7 @@
 #include "main.h"
-/* 
- * print_sign - print sign of int 
+/**
+ * print_sign - print sign of int
+ * @z: int val
  * Return: 1 for great than zero 0 if equail zero -1 if less than zero
 */
 int print_sign(int z)
