@@ -29,7 +29,7 @@ if (n >= 0 && n <= 15)
 			if (prod <= 99 && prod >= 10)
 			{
 			putchar((prod / 10) + '0');
-}}
+}
 putchar((prod % 10) + '0');
 			}
 		putchar('\n');
