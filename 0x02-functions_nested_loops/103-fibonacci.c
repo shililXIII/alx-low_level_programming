@@ -1,20 +1,25 @@
 #include <stdio.h>
-/**
- * main - sum all fi
- * Return: always (success)
+/*
+main-Prints the first 52 fibonacci numbers Return: Nothing! 
 */
-int main(void)
+int main(void) 
 {
-int i = 0;
-loong j = 1, k = 2, sum = k;
-while (k + j < 4000000)
+	int i = 0;
+	long j= 1, k =2; 
+	while (i < 50)
 {
-k += j;
-if (k % 2 == 0)
-sum += k;
-j = k - j;
+	if (i == 0) 
+		printf("%ld", j); 
+	else if (i == 1)
+		printf(", %ld", k);
+	else
+	{
+	k += j;
+	}
+	j = k - j;
+	printf(", %ld", k);
+}
 i++;
 }
-printf("%ld\n", sum);
-return (0);
-}
+printf("\n");
+return ();
