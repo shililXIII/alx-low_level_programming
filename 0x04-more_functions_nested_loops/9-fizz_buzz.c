@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 /**
  * main - print num for 1 to 100 and mul
  * Return: always 0 (success)
