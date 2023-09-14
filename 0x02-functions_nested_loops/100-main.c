@@ -6,12 +6,12 @@
 */ 
 int main(void) 
 { 
-	print_times_table(3); 
+	print_times_table(4); 
 	_putchar('\n'); 
-	print_times_table(5); 
+	print_times_table(6); 
 	_putchar('\n'); 
-	print_times_table(98); 
+	print_times_table(99); 
 	_putchar('\n'); 
-	print_times_table(12); 
+	print_times_table(13); 
 	return (0);
 }
