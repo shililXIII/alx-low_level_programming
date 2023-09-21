@@ -9,8 +9,9 @@ char *cap_string(char *str)
 {
 	int zy = 0;
 
-	while (!(str[zy] >= 'a' && str[zy] <= 'z'))
+	while (str[zy])
 	{
+	while (!(str[zy] >= 'a' && str[zy] <= 'z'))
 		zy++;
 	if (str[zy - 1] == ' ' ||
 		str[zy - 1] == '\t' ||
