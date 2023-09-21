@@ -2,12 +2,12 @@
 /**
  * _strncat - con tow string
  * @dest: input val
- * @src: input val
+ *
  * @n: input val
  * Return: dest
  */
 
-char *_strncat(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src,  int n)
 {
 	int i;
 	int j;
@@ -20,9 +20,10 @@ char *_strncat(char *dest, char *src, int n)
 	j = 0;
 	while (j < n && dest[j] != '\0')
 	{
+		dest[i] = src[i];
 		i++;
 		j++;
 	}
-	dest[i] != '\0';
+	dest[i] = '\0';
 	return (dest);
 }
