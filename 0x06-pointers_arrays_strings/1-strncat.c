@@ -2,7 +2,7 @@
 /**
  * _strncat - con tow string
  * @dest: input val
- *
+ * @src: input val
  * @n: input val
  * Return: dest
  */
