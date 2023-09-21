@@ -1,0 +1,20 @@
+#include <stdio.h>
+/**
+ * main - it's magic try it now
+ * Return: always 0.
+ */
+
+int main(void)
+{
+	int n;
+	int a[5];
+	int m;
+
+	a[2] = 1024;
+	m = &n;
+
+	(m + 5) = 98;
+	printf("a[2] = %d\n", a[2]);
+
+	return (0);
+}
