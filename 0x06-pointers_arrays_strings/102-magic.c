@@ -12,8 +12,15 @@ int main(void)
 
 	a[2] = 1024;
 	p = &n;
-
+/*
+ * write ur code here
+ * Remember:
+ * -u can't use a 
+ * -u can't mod p
+ * -uR not allowed to code anything
+ */
 	*(p + 5) = 98;
+	/* ....it's print 98\n */
 	printf("a[2] = %d\n", a[2]);
 
 	return (0);
