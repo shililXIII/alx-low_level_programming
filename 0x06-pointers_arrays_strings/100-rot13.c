@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * rot13 - encoder alpha
  * @s: pointer to string
