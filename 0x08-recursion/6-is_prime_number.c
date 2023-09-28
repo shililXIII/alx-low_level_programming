@@ -1,5 +1,6 @@
 #include "main.h"
 
+int actual_prime(int n, int i);
 /**
  * is_prime_number - figure if num is prime or not
  * @n: input
