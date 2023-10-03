@@ -7,7 +7,7 @@
  * Return: int
 */
 
-int _outta(char *s)
+int _atoi(char *s)
 {
 	int i, d, n, len, f, digit;
 
@@ -59,8 +59,8 @@ int main(int argc, char *argv[])
 	printf("Error\n");
 	return (1);
 	}
-	num1 = _outta(argv[1]);
-	num2 = _outta(argv[2]);
+	num1 = _atoi(argv[1]);
+	num2 = _atoi(argv[2]);
 	result = num1 * num2;
 
 	printf("%d\n", result);
