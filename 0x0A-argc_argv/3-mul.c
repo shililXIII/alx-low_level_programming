@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * _outta - conv string to int
+ * _atoi - conv string to int
  * @s: string
  * Return: int
 */
@@ -20,11 +20,12 @@ int _atoi(char *s)
 
 	while (s[len] != '\0')
 		len++;
+
 	while (i < len && f == 0)
 	{
 		if (s[i] == '-')
-		{
 			++d;
+
 			if (s[i] >= '0' && s[i] <= '9')
 			{
 				digit = s[i] - '0';
@@ -37,7 +38,7 @@ int _atoi(char *s)
 				f = 0;
 			}
 			i++;
-		}
+	}
 		if (f == 0)
 			return (0);
 		return (n);
