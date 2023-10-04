@@ -22,10 +22,10 @@ void print_grid(int **grid, int width, int height)
 			printf("%d ", grid[h][w]);
 			w++;
 		}
-		printf("\n"); h++;
+		printf("\n");
+		h++;
 	}
 }
-
 /**
  * main - check the code for ALX School students.
  *
@@ -34,6 +34,7 @@ void print_grid(int **grid, int width, int height)
 int main(void)
 {
 	int **grid;
+
 	grid = alloc_grid(6, 4);
 	if (grid == NULL)
 	{
