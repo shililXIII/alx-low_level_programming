@@ -21,7 +21,7 @@ int _strlen(char *s)
 }
 
 /**
- * strcpy - copy str pointer to by src
+ * _strcpy - copy str pointer to by src
  * @dest: pointer to za buffer
  * @src: string to be copied
  * Return: pointer to dest
