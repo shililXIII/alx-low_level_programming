@@ -1,9 +1,8 @@
 #include "lists.h"
 #include <stdio.h>
 
-/*
- * print_list - func to printf list
- * @list_t: list to printed out
+/**
+ * print_list - func to printf list.
  * @h: pointer to list
  * Return: list.
  */
