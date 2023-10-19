@@ -1,4 +1,5 @@
 #include "list.h"
+#include <stdio.h>
 
 /*
  * print_list - func to printf list
