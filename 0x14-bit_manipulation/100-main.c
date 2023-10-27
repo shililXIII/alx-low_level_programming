@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include "main.h"
-
+/**
+ * main - check lil num and big num
+ * Return: alway 0
+ */
 int main(void)
 {
 	int n;
