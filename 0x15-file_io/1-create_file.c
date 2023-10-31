@@ -18,10 +18,12 @@ int create_file(const char *filename, char *text_content)
 			return (-1);
 	if (!text_content)
 		text_content = "";
+	{
 	for (nlit = 0; text_content[nlit]; nlit++)
 	rwrite = write(fdir, text_content, nlit);
 	if (rwrite == -1)
 		return (-1);
+	}
 	close(fdir);
 	return (1);
 }
