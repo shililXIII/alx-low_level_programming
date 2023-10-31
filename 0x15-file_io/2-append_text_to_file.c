@@ -9,7 +9,7 @@
 
 int append_text_to_file(const char *filename, char *text_content)
 {
-	int fdir, nlit, rwrite;
+	int fdir, nlit, rwr;
 
 	if (!filename)
 		return (-1);
@@ -19,8 +19,8 @@ int append_text_to_file(const char *filename, char *text_content)
 	if (text_content)
 	{
 		for (nlit = 0; text_content[nlit]; nlit++)
-			rwrite = write(fdir, text_content, nlit);
-		if (rwrite == -1)
+			rwr = write(fdir, text_content, nlit);
+		if (rwr == -1)
 			return (-1);
 	}
 	close(fdir);
