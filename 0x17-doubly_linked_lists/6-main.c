@@ -9,9 +9,7 @@
 int main(void)
 {
 	dlistint_t *head;
-	int sum;
-
-	head = NULL;
+	int sum; head = NULL;
 	add_dnodeint_end(&head, 0);
 	add_dnodeint_end(&head, 1);
 	add_dnodeint_end(&head, 2);
